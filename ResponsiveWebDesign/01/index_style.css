@@ -1,0 +1,53 @@
+#main {
+    padding: 30px 8px;
+    background-color: #eeeeee;
+    text-align: left;
+    width: 75%;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+    padding: 15px 8px 15px 8px;
+}
+
+.title-intro {
+    text-indent: 2em;
+    padding: 0px 8px 0px 8px;
+}
+
+#img-div {
+    /* background-color: #ffffff; */
+    padding: 15px 8px 15px 8px;
+    text-align: center;
+}
+
+#image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#img-caption {
+    margin-top: 15px;
+    font-size: 10px 8px 10px 8px;
+}
+
+#life-content {
+    width: 90%;
+    padding: 15px 8px 15px 8px;
+    margin: 15px auto;
+}
+
+#life-title {
+    text-align: center;
+}
+
+.title-chapter {
+    text-align: left;
+}
+
+.first-content {
+    text-indent: 2em;
+}
