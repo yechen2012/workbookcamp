@@ -13,17 +13,95 @@
 
             <form id="survey-form">
                 <div class="form-group">
-                    <Label>名字</Label>
-                    </br>
-                    <input class="form-control" name="name" type="text" placeholder="请输入您的姓名" required>
+                    <label id="name-label" class="form-control-title" for="name">名字</label>
+                    <br/>
+                    <input id="name" class="form-control" name="name" type="text" placeholder="请输入您的姓名" required>
+                    <br/>
                     
-                    <Label>邮箱</Label>
-                    </br>
-                    <input class="form-control" name="name" type="text" placeholder="请输入您的邮箱" required>
+                    <label id="email-label" class="form-control-title" for="email">邮箱</label>
+                    <br/>
+                    <input id="email" class="form-control" name="email" type="email" placeholder="请输入您的邮箱" required>
+                    <br/>
 
-                    <Label>联系方式</Label>
-                    </br>
-                    <input class="form-control" name="name" type="text" placeholder="请输入您的联系电话" required>
+                    <label id="number-label" class="form-control-title" for="number">年龄</label>
+                    <br/>
+                    <input id="number" class="form-control" name="age" type="number" placeholder="请输入您的年龄" min="1" max="199" required>
+                    <br/>
+
+                    <div id="form-group-sex">
+                        <label id="sex-label" class="form-control-title">性别</label>
+                        <br/>
+                        <label for="man">男</label>
+                        <input id="sex-man" class="form-control-sex" name="sex" type="radio" checked="checked">
+                        <label for="sex-woman">女</label>
+                        <input id="sex-woman" class="form-control-sex" name="sex" type="radio">
+                        </br>
+                    </div>
+                    
+                    <div id="form-group-gametime">
+                        您的欧洲卡车模拟2游戏时长有多少？
+                        <br/>
+
+                        <input id="time-10" class="form-control-time" name="time" type="radio" checked="checked">
+                        <label for="time-10">10小时以下</label>
+                        <br/>
+
+                        <input id="time-50" class="form-control-time" name="time" type="radio">
+                        <label for="time-50">10-50小时</label>
+                        <br/>
+
+                        <input id="time-200" class="form-control-time" name="time" type="radio">
+                        <label for="time-200">50-200小时</label>
+                        <br/>
+
+                        <input id="time-200plus" class="form-control-time" name="time" type="radio">
+                        <label for="time-200plus">200小时以上</label>
+                        <br/>
+                    </div>
+
+                    <div id="form-group-platform">
+                        您主要是在哪个平台玩欧卡2游戏？
+                        <br/>
+
+                        <select id="dropdown" class="form-control" name="platform">
+                            <option value="Windows">Windows</option>
+                            <option value="Mac">Mac</option>
+                            <option value="Linux">Linux</option>
+                            <option value="XBox">XBox</option>
+                            <option value="PS">PS</option>
+                        </select>
+                    </div>
+
+                    <div id="form-group-truck">
+                        您最喜欢的欧卡2内的卡车有哪些
+                        <br/>
+
+                        <label for="truck-volvo"><input id="truck-volvo" class="form-control-truck" name="truck" type="checkbox" value="truck-volvo">VOLVO</label>
+                        <br/>
+
+                        <label for="truck-scania"><input id="truck-scania" class="form-control-truck" name="truck" type="checkbox" value="truck-scania">SCANIA</label>
+                        <br/>
+
+                        <label for="truck-mercedsbenz"><input id="truck-mercedsbenz" class="form-control-truck" name="truck" type="checkbox" value="truck-mercedsbenz">MERCEDES-BENZ </label>
+                        <br/>
+
+                        <label for="truck-daf"> <input id="truck-daf" class="form-control-truck" name="truck" type="checkbox" value="truck-daf">DAF</label>
+                        <br/>
+
+                        <label for="truck-man"><input id="truck-man" class="form-control-truck" name="truck" type="checkbox" value="truck-man">MAN</label>
+                        <br/>
+
+                        <label for="truck-renault"><input id="truck-renault" class="form-control-truck" name="truck" type="checkbox" value="truck-renault">RENAULT</label>
+                        <br/>
+
+                        <label for="truck-iveco"><input id="truck-iveco" class="form-control-truck" name="truck" type="checkbox" value="truck-iveco">IVECO</label>
+                        <br/>
+                    </div>
+
+                    <div id="form-group-text">
+                        <p>说一说您在欧卡2里遇到的趣事吧</p>
+                        <textarea class="form-textarea"></textarea>
+                    </div>
                 </div>
             </form>
         </div>

@@ -26,6 +26,14 @@ body {
 }
 
 .form-control {
-  width: 100%;
+  width: 95%;
   height: 20px;
+}
+
+.form-textarea {
+  width: 95%;
+  height: 120px;
+  padding: 0.628rem;
+  margin: auto;
+  resize: vertical;
 }
